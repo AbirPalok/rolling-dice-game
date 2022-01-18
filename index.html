@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title></title>
+		<!-- Bootstrap 4.5 CSS -->
+		<link rel="stylesheet" href="resources\bootstrap\bootstrap.css">
+		<link rel="stylesheet" href="resources\bootstrap\bootstrap-grid.css">
+		<link rel="stylesheet" href="resources\bootstrap\bootstrap-reboot.css">
+		<!-- My Stylesheet -->
+		<link rel="stylesheet" href="resources\style.css">
+		<!-- Font Awesome Icons -->
+		<script src="https://kit.fontawesome.com/87043ee6ed.js" crossorigin="anonymous"></script>
+
+	</head>
+	<body>
+		
+		<div class="container mt-5">
+			<div class="row">
+
+					<!-- Panel Player-0  -->
+					<div id="player-panel-0" class="col-6 panel ">
+						<h1 class="player" id="player-0">Player 1</h1>
+
+						<!-- Buttons -->
+						<div id="btn-new-game"><i class="fas fa-plus-circle"></i><p>New Game</p></div>
+						<div id="btn-roll" class=""><i class="fas fa-sync"></i><p>Roll</p></div>
+						<div id="btn-hold"><i class="fas fa-folder-plus"></i></i><p>Hold</p></div>
+						
+						
+						<!-- Dices -->
+						<img src="resources/img/dice-1.png" alt="Dice" class="dice" id="dice-0">
+						<img src="resources/img/dice-5.png" alt="Dice" class="dice" id="dice-1">
+						<h1 class="winner" id="winner-0">Winner!</h1>
+						<!-- Scores (Main and Current) -->
+						<p id="main-score-0" class="main-score">0</p>
+						<p id="" class="current-score-text">Current Score</p>
+						<div class="break"></div>
+						<p id="current-score-0" class="current-score">0</p>
+					</div>
+
+					<!-- Panel Player-1  -->
+					<div id="player-panel-1" class="col-6 panel active">
+						<h1 class="player">Player 2</h1>
+						<h1 class="winner" id="winner-1">Winner!</h1>
+						<p id="main-score-1" class="main-score">0</p>
+						<p id="" class="current-score-text">Current Score</p>
+						<div class="break"></div>
+						<p id="current-score-1" class="current-score">0</p>
+					</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!-- Bootstrap 4.5 JS -->
+		<script src="resources\bootstrap\jquery.js"></script>
+		<script src="resources\bootstrap\popper.js"></script>
+		<script src="resources\bootstrap\bootstrap.js"></script>
+
+		<!-- My JS -->
+		<script src="resources\myscript.js"></script>
+	</body>
+</html>
